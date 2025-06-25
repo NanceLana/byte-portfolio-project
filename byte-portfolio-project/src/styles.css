@@ -14,9 +14,7 @@
   
   /* ===== Navigation ===== */
   nav {
-    /* background-color: #000; */
-    /* color: #fff; */
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
     text-align: right;
   }
   
@@ -25,20 +23,8 @@
     padding: 80px 20px;
     text-align: center;
   }
-  
-  /* #home {
-    background-color: #222;
-    color: #fff;
-  } */
-  
-  /* #about,
-  #projects,
-  #experience,
-  #skills,
-  #contact {
-    background-color: #fff;
-  } */
-  
+
+
   /* ===== Section Headings ===== */
   h1, h2 {
     margin-bottom: 1rem;
@@ -49,9 +35,10 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color:#222;
+    /* background-color:#222; */
+    background: linear-gradient(100deg, #d6d6d6 0%, #d6d6d6 47%, #000 47%, #000 100%);
 }
-
+  
 
   /* ===== Social Icons/ Navbar  ===== */
   .hero-section ul { 
@@ -61,24 +48,107 @@
   .nav-list {
     justify-content: flex-end;
     gap: 20px;
-    
-  }
   
+  }
   .nav-list li{
     background-color: #ffffff;
     padding: 0.5rem 1.4rem;
     border-radius: 30px;
+  
+  }
+
+  .nav-list li:hover{
+    border: 3px solid rgb(196,196,196);
   }
 
   .nav-list a{
     font-weight: bold;
-    font-size: 1 rem;
+    font-size: 1rem;
+    
+   
   }
   .hero-section a {
     text-decoration: none;
     color: #000000;
   }
 
+
+  /* ===== Home ===== */
+  
+  #home{
+   display: flex;
+   flex-grow: 1;
+  }
+
+  .hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-text{
+    padding: 0 0 0 5vw;
+    text-align: left;
+  }
+  .hero-text p{
+    padding-left: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .hero-text h1{
+    text-align: center;
+    font-size: 4rem;
+  }
+  .hero-text h2{
+    padding-left: 30px;
+    color: rgb(144,144,144);
+  }
+
+ .social-list img {
+    width: 50px;    
+    height: auto; 
+  }
+
+  .social-icons{
+    margin-top: 5rem;
+  }
+  .social-icons ul{
+    gap: 40px;
+  }
+  .social-icons li{
+     padding: 0.5rem 0.5rem 0.3rem 0.5rem;
+     background-color: rgb(196,196,196);
+     box-shadow: 0 4px 12px rgba(0,0,0,0.35);
+     border-radius: 1%;
+  }
+
+  .hero-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow:1;
+  }
+
+  .circle-box {
+    width: 30vw;           /* Set the size of the circle */
+    max-width: 350px;
+    aspect-ratio: 1;
+    border-radius: 50%;     /* Makes the div a circle */
+    overflow: hidden;       /* Hides overflow so image stays inside the circle */
+    display: flex;          /* Optional: centers image if it's smaller */
+    align-items: center;
+    justify-content: center;
+}
+  .circle-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;      /* Ensures image covers the circle */
+    display: block;
+  }
+ 
+ 
+
+  
   /* ===== Footer ===== */
   footer {
     background-color: #000;
