@@ -36,7 +36,6 @@
     text-align: center;
   }
 
-
   /* ===== Section Headings ===== */
   h1, h2 {
     margin-bottom: 1rem;
@@ -157,7 +156,23 @@
     object-fit: cover;      /* Ensures image covers the circle */
     display: block;
   }
- 
+
+ /* ===== Current Role ===== */
+ .current-role{
+  background-color: rgb(29,29,29);
+  color: #ffffff;
+ }
+
+.current-role-content h2{
+  text-align: left;
+  padding-left: 7vw;
+  letter-spacing: 0.5rem;
+}
+.current-role-content p{
+  padding: 0 5vw;
+}
+
+
  /* ===== About ===== */
   .about-content{
     height: 50vh;
