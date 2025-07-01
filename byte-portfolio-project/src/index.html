@@ -2,124 +2,260 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My BYTE Portfolio Project</title>
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My BYTE Portfolio Project</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <header class = "hero-section">
-        <!-- Navigation -->
-        <nav>
-            <!-- Placeholder for navigation menu -->
-            <!-- Links: About Me, Projects, Experience, Skills, Contact -->
-             <ul class="nav-list">
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-             </ul>
-        </nav>
+  <header class="hero-section">
+    <!-- Navigation -->
+    <nav>
+      <!-- Placeholder for navigation menu -->
+      <!-- Links: About Me, Projects, Experience, Skills, Contact -->
+      <ul class="nav-list">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-        <!-- Home / Hero Section -->
-        <section id="home">
-            <div class="hero-content">
-                <!-- Placeholder for name, title, profile image, social icons -->
-                <div class="hero-text">
-                    <p>Hi, I am</p>
-                    <h1>Tomasz Gajda</h1>
-                    <h2>Front-end Developer /UI Designer</h2>
-                </div>
-                <div class="social-icons">
-                    <ul class = "social-list"> 
-                        <li>
-                            <a href="https://x.com/" target="_blank">
-                                <img src="../assets/twitter.png" alt="X" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://github.com/" target="_blank">
-                                <img src="../assets/github-logo.png" alt="Github" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://linkedin.com/" target="_blank">
-                                <img src="../assets/linkedin.png" alt="Linkedin" />
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+    <!-- Home / Hero Section -->
+    <section id="home">
+      <div class="hero-content">
+        <!-- Placeholder for name, title, profile image, social icons -->
+        <div class="hero-text">
+          <p>Hi, I am</p>
+          <h1>Tomasz Gajda</h1>
+          <h2>Front-end Developer /UI Designer</h2>
+        </div>
+        <div class="social-icons">
+          <ul class="social-list">
+            <li>
+              <a href="https://x.com/" target="_blank">
+                <img src="../assets/twitter.png" alt="X" />
+              </a>
+            </li>
+            <li>
+              <a href="http://github.com/" target="_blank">
+                <img src="../assets/github-logo.png" alt="Github" />
+              </a>
+            </li>
+            <li>
+              <a href="http://linkedin.com/" target="_blank">
+                <img src="../assets/linkedin.png" alt="Linkedin" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="hero-image">
+        <!-- Placeholder for profile image -->
+        <div class="circle-box">
+          <img src="../assets/profile-pic.jpg" alt="Profile Image" />
+        </div>
+      </div>
+    </section>
+  </header>
+  <!-- Current Role Section -->
+  <section class="current-role">
+    <div class="current-role-content">
+      <h2>Current Role</h2>
+      <p>As a junior Web Developer at NovaTech Labs, I contributed to the redesign of their internal dashboard used by
+        300+ employees. I focused on
+        implementing reponsive component using React and styled them with Tailwind CSS for a clean, modern look. I also
+        collaborated with the backend
+        team to integrate APIS and troubleshoot UI bugs across devices.
+      </p>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <div class="about-content">
+      <!-- Placeholder for bio -->
+      <h2>About Me</h2>
+      <p> Hi, I'm Jordan Lee - second year Software Engineering student at Pacific Tech University. I'm passionate about
+        backend development and have expereince building REST APIs with Node.js and Python.
+        I've interned ata local startup where I contributed to developing scalabe microservices. I'm currently exploring
+        DevOps tools and cloud infrastructure.</p>
+    </div>
+  </section>
+
+  <div class="center-container">
+      <img src="../assets/transition-design.png" alt="transition design" />
+  </div>
+
+  <!-- Projects Showcase Section -->
+  <section id="projects">
+    <div class="projects-content">
+      <h2>Projects</h2>
+
+      <div class="project-layout">
+        <!-- SmartWaste Tracker Project Card -->
+        <div class="project-card">
+          <div class="smartwaste-image">
+            <img src="../assets/smartwaste-report.png" alt="project image" />
+          </div>
+          <div class="project-header">
+            <div class="smartwaste-logo">
+              <img src="../assets/smartwaste-logo.png" alt="project logo" />
             </div>
-            <div class="hero-image">
-                <!-- Placeholder for profile image -->
-                 <div class="circle-box">
-                     <img src="../assets/profile-pic.jpg" alt="Profile Image" />
-                </div>
-            </div>
-        </section>
-    </header>
-    <!-- Current Role Section -->
-    <section class="current-role">
-        <div class="current-role-content">
-        <h2>Current Role</h2>
-        <p>As a junior Web Developer at NovaTech Labs, I contributed to the redesign of their internal dashboard used by 300+ employees. I focused on
-            implementing reponsive component using React and styled them with Tailwind CSS for a clean, modern look. I also collaborated with the backend 
-            team to integrate APIS and troubleshoot UI bugs across devices.
-        </p>
+            <div class="smartwaste-title">SmartWaste Tracker</div>
+          </div>
+
+          <div class="project-description">
+            A web app that helps households track their weekly waste and get eco-friendly disposal tips using AI-powered
+            insights.
+          </div>
+
+          <div class="tech-stack">
+            <div class="tech-label">Tech Used:</div>
+            <div class="tech-items">React, Python, Flask, MongoDB, OpenAI API</div>
+          </div>
+
+          <div class="project-buttons">
+            <a href="#" class="btn btn-primary">Live Demo</a>
+            <a href="#" class="btn btn-secondary">Github Repo</a>
+          </div>
         </div>
-    </section>
 
-    <!-- About Me Section -->
-    <section id="about">
-        <div class="about-content">
-            <!-- Placeholder for bio -->
-            <h2>About Me</h2>
-            <p> Hi, I'm Jordan Lee - second year Software Engineering student at Pacific Tech University. I'm passionate about backend development and have expereince building REST APIs with Node.js and Python. 
-                I've interned ata local startup where I contributed to developing scalabe microservices. I'm currently exploring DevOps tools and cloud infrastructure.</p>
+        <!-- F1 Pulse Project Card -->
+        <div class="project-card">
+          <div class="f1-image">
+            <img src="../assets/F1-image.png" alt="project image" />
+          </div>
+          <div class="project-header">
+            <div class="f1-logo"></div>
+            <div class="f1-title">F1 Pulse</div>
+          </div>
+
+
+          <div class="project-description">
+            A real-time Formula 1 dashboard tracking pit strategy, lap times, and tire usage with live data APIs.
+          </div>
+
+          <div class="tech-stack">
+            <div class="tech-label">Tech Used:</div>
+            <div class="tech-items">React, D3.js, Node.js, WebSockets, Ergast API</div>
+          </div>
+
+          <div class="project-buttons">
+            <a href="#" class="btn btn-primary f1-btn">Live Demo</a>
+            <a href="#" class="btn btn-secondary f1-btn-secondary">GitHub Repo</a>
+          </div>
         </div>
-    </section>
+      </div>
+  </section>
 
-    <!-- Projects Showcase Section -->
-    <section id="projects">
-        <div class="projects-content">
-            <!-- Placeholder for project cards -->
-            <h2>Projects</h2>
-        </div>
-    </section>
+  <!-- Talents -->
+  <section class="services">
+    <div class="service-box">
+      <img src="https://img.icons8.com/ios-filled/100/000000/design.png" alt="Design Icon" class="icon">
+      <h2>DESIGN</h2>
+      <p>I can design the site based on your needs and suggestions. I can also design the site from scratch and consult you during the job.</p>
+    </div>
 
-    <!-- Experience Section -->
-    <section id="experience">
-        <div class="experience-content">
-            <!-- Placeholder for experience -->
-            <h2>Experience</h2>
-        </div>
-    </section>
+    <div class="service-box">
+      <img src="https://img.icons8.com/ios-filled/100/000000/developer.png" alt="Development Icon" class="icon">
+      <h2>DEVELOPMENT</h2>
+      <p>I can design the site based on your needs and suggestions. I can also design the site from scratch and consult you during the job.</p>
+    </div>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="skills-content">
-            <!-- Placeholder for logos/icons -->
-            <h2>Skills</h2>
-        </div>
-    </section>
+    <div class="service-box">
+      <img src="https://img.icons8.com/ios-filled/100/000000/maintenance.png" alt="Maintenance Icon" class="icon">
+      <h2>MAINTENANCE</h2>
+      <p>I can design the site based on your needs and suggestions. I can also design the site from scratch and consult you during the job.</p>
+    </div>
+  </section>
 
-    <!-- Contact Form Section -->
-    <section id="contact">
-        <div class="contact-content">
-            <!-- Placeholder for form -->
-            <h2>Contact</h2>
-        </div>
-    </section>
+  <div class="center-container">
+      <img src="../assets/transition-design.png" alt="transition design" />
+  </div>
 
-    <!-- Footer -->
-    <footer>
-        <!-- Placeholder for social icons or footer info -->
-        <p>&copy; 2025 Your Name</p>
-    </footer>
 
-    <script src="script.js"></script>
+  <!-- Experience Section -->
+  <section id="experience">
+    <div class="experience-content">
+      <h2>Experience</h2>
+
+      <div class="experience-entry">
+        <h3><strong>Student Web Developer – Campus Coding Club</strong></h3>
+        <p class="location">📍 Your University | 📅 Sep 2023 – Present</p>
+        <p>Volunteered to create and manage the coding club’s official website.</p>
+        <ul>
+          <li>Built the homepage, events calendar, and registration form using HTML/CSS/JS</li>
+          <li>Added accessibility features and tested site across browsers</li>
+          <li>Regularly update content based on team input</li>
+        </ul>
+      </div>
+
+      <div class="experience-entry">
+        <h3><strong>Frontend Developer – WomenInTech Hackathon</strong></h3>
+        <p class="location">📍 Toronto, ON | 📅 Jan 2024</p>
+        <p>Collaborated in a 4-person team to develop a mobile-responsive budgeting app.</p>
+        <ul>
+          <li>Designed and implemented responsive UI using React and TailwindCSS</li>
+          <li>Connected frontend with Firebase backend for authentication and data storage</li>
+          <li>Pitched the final project to a panel of judges; placed in Top 10 out of 60+ teams</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="center-container">
+      <img src="../assets/transition-design.png" alt="transition design" />
+  </div>
+
+  <!-- Skills Section -->
+<section id="skills">
+  <div class="skills-content">
+    <div class="skills-heading">
+      <h2>Skills</h2>
+    </div>
+
+    <h3 class="section-subtitle">Technical Skills</h3>
+    <div class="skills-grid technical-skills">
+      <div class="skill"><img src="../assets/html5.png" alt="HTML5"><p>HTML5</p></div>
+      <div class="skill"><img src="../assets/css3.png" alt="CSS3"><p>CSS3</p></div>
+      <div class="skill"><img src="../assets/sass.png" alt="SASS"><p>SASS</p></div>
+      <div class="skill"><img src="../assets/javascript.png" alt="JavaScript"><p>JAVASCRIPT</p></div>
+      <div class="skill"><img src="../assets/react.png" alt="React"><p>REACT</p></div>
+      <div class="skill"><img src="../assets/bootstrap.png" alt="Bootstrap"><p>BOOTSTRAP</p></div>
+      <div class="skill"><img src="../assets/git.png" alt="Git"><p>GIT</p></div>
+      <div class="skill"><img src="../assets/figma.png" alt="Figma"><p>FIGMA</p></div>
+    </div>
+
+    <h3 class="section-subtitle">Learning</h3>
+    <div class="skills-grid learning-skills">
+      <div class="skill"><img src="../assets/nodejs.png" alt="NodeJS"><p>NODEJS</p></div>
+      <div class="skill"><img src="../assets/mysql.png" alt="MySQL"><p>MySQL</p></div>
+      <div class="skill"><img src="../assets/mongodb.png" alt="MongoDB"><p>MONGODB</p></div>
+      <div class="skill"><img src="../assets/typescript.png" alt="TypeScript"><p>TYPESCRIPT</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Contact Form Section -->
+  <section id="contact">
+    <div class="contact-content">
+      <!-- Placeholder for form -->
+      <h2>Contact</h2>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <!-- Placeholder for social icons or footer info -->
+    <p>&copy; 2025 Your Name</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
